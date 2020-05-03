@@ -362,7 +362,7 @@ body {
   opacity: 1;
 }
 .facts {
-  background: url("/img/facts/bg.jpg");
+  background: url("../img/facts/bg.jpg");
   background-size: cover;
   padding: 75px 0 118px;
   color: #fff;
@@ -454,7 +454,7 @@ body {
 }
 .form__body button {
   padding-left: 30px;
-  background: url("/img/discuss/Envelope.svg") center left no-repeat;
+  background: url("../img/discuss/Envelope.svg") center left no-repeat;
   width: 125px;
   font-size: 14px;
   color: #000;
