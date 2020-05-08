@@ -719,7 +719,7 @@ body {
 }
 @media screen and (max-width: 576px) {
   .container {
-    width: 80%;
+    width: 95%;
   }
   .header .logo {
     display: none;
@@ -729,6 +729,9 @@ body {
   }
   .menu {
     width: 100%;
+  }
+  .menu__item:not(:last-child) {
+    margin-right: 15px;
   }
   .menu__item:first-child {
     display: none;
@@ -769,7 +772,7 @@ body {
     flex-direction: column;
   }
   .grid__img {
-    width: 50%;
+    width: 100%;
   }
   .facts__row .item {
     width: 100%;
