@@ -31,3 +31,8 @@ $('.button-group').each(function (i, buttonGroup) {
         $(this).addClass('is-checked');
     });
 });
+$('.menu__btn').on('click', function (e) {
+    e.preventDefault;
+    $(this).toggleClass('menu__btn_active');
+    $('.menu__list').toggleClass('menu__list_active');
+});
