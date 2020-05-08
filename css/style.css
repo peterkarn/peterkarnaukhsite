@@ -730,10 +730,7 @@ body {
   .menu {
     width: 100%;
   }
-  .menu__btn {
-    display: none;
-  }
-  .menu__list {
+  .menu__item:first-child {
     display: none;
   }
   .offer__title {
